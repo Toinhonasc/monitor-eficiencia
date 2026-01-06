@@ -280,7 +280,7 @@ def main():
                 <div class="metric-lbl">Cobertura Média</div>
             </div>
             <div class="metric-box">
-                <div class="metric-val" style="color:#ef4444">{below}</div>
+                <div class="metric-val" style="color:#ef4444 !important">{below}</div>
                 <div class="metric-lbl">Abaixo da Meta</div>
             </div>
             <div class="metric-box">
