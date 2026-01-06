@@ -217,7 +217,7 @@ def main():
             font-size: 2.5rem;
             font-weight: 800 !important; /* Bold */
             color: #2563eb !important; /* Mid-tone Blue - Visible on BOTH Light and Dark */
-            line-height: 1.2;
+            line-height: 2.2;
         }
         .metric-lbl {
             font-size: 0.85rem;
