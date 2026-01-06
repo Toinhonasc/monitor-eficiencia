@@ -216,21 +216,17 @@ def main():
         .metric-val {
             font-size: 2.5rem;
             font-weight: 800 !important; /* Bold */
-            color: #1e3a8a; /* Blue for visibility */
+            color: #2563eb !important; /* Mid-tone Blue - Visible on BOTH Light and Dark */
             line-height: 1.2;
         }
         .metric-lbl {
             font-size: 0.85rem;
             font-weight: 700 !important; /* Bold */
-            color: #64748b;
+            color: #475569;
             text-transform: uppercase;
             letter-spacing: 0.05em;
         }
-        /* Dark Mode Adjustments */
-        @media (prefers-color-scheme: dark) {
-            .metric-val { color: #f8fafc; }
-            .metric-lbl { color: #94a3b8; }
-        }
+        /* Dark Mode Media Query removed to prevent OS mismatch */
 
         /* Responsive Metric Grid - Forces horizontal layout on mobile */
         .metric-container {
@@ -256,7 +252,7 @@ def main():
 
     # Header
     # Header
-    st.markdown("<h1 style='text-align: center; color: #1e3a8a;'>Monitor de Eficiência (0 a 3 anos)</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; color: #2563eb;'>Monitor de Eficiência (0 a 3 anos)</h1>", unsafe_allow_html=True)
     st.markdown("<h3 style='text-align: center; color: #64748b;'>Educação Infantil | Ceará</h3>", unsafe_allow_html=True)
     
     st.markdown("""
